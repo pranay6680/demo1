@@ -1,0 +1,137 @@
+*  {
+    margin : 0;
+    padding : 0;
+}
+body {
+    width : 100%;
+}
+
+.cal {
+    background : url("image.jpg");
+    max-width : 100%;
+    height : 100vh;
+    position: relative;
+    
+
+}
+.nav ul li {
+    display : inline-block;
+    
+}
+.nav  {
+    padding-right : 161px;
+    float: right;
+}
+.nav ul li {
+    margin-left : 44px;
+    margin-top : 32px;
+    font-family :  sans-serif;
+}
+.nav button {
+    padding : 5px 10px 5px 10px;
+    font-size : 14px;
+    border-radius : 12px;
+    outline : none;
+    border : solid 2px rgb(228, 23, 166) ;
+}
+.header h1 {
+    margin-left : 192px;
+    margin-top : 20px;
+    font-family : Arial, Helvetica, sans-serif;
+}
+
+
+@media  screen and (max-width :769px){
+    .header h1 {
+        display : block;
+        width: 100%;
+        margin-left : 110px;
+        
+    }
+    .nav ul {
+        position : absolute;
+        width : 100%;
+        height : 100vh;
+        top : 80px;
+        
+        
+
+    }
+    .nav ul li {
+        display : flex;
+        justify-content: center;
+        margin-left : -400px;
+       
+    }
+    .col-md-4 {
+        max-width : 100%;
+        margin-top : 235px;
+        margin-left : 136px;
+        position: absolute;
+
+        
+    }
+    .info {
+        left : 390px;
+        position : absolute;
+        top : 658px;
+    }
+    .cal  {
+        background-size: cover!important;
+        width : 100%!important;
+        background-image : url("image.jpg");  
+    }
+   
+    
+}
+ 
+ 
+
+
+ .data .col-md-4 {
+     top : 166px;
+     left : -64px;
+ }
+ .info {
+     margin-top : -63px;
+     margin-right : 350px;
+     background : palevioletred;
+     width : auto;
+     box-shadow : 10px 10px 2px rgba(60,60,60,0.3);
+     border-radius : 5px;
+     position : relative;
+ }
+ .info .box {
+     width : 250px;
+     height : 35px;
+     margin : 10px 30px 0 30px;
+     border-radius : 5px;
+     outline : none;
+     border : solid 1px grey;
+     padding-left : 8px;
+ }
+ .info .click {
+    width : 250px;
+    height : 35px;
+    margin : 10px 30px 30px 30px;
+    background-color : yellow;
+    outline : none;
+    border-radius : 12px;
+ }
+ .info h2 {
+     text-align : center;
+     padding-top : 15px;
+ }
+ .col-md-4 h2 {
+     font-size : 39px;
+     font-family : monospace;
+ }
+ .data .price>button {
+     width : 130px;
+     height : 34px;
+     background : palegreen;
+     border-radius : 15px;
+     outline:none;
+     border : solid 2px pink; 
+ }
+
